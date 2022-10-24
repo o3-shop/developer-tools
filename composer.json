@@ -1,0 +1,37 @@
+{
+  "name": "o3-shop/developer-tools",
+  "description": "The component contains developer tools.",
+  "type": "oxideshop-component",
+  "keywords": ["o3-shop", "component", "eShop"],
+  "homepage": "https://www.o3-shop.com",
+  "license": [
+    "GPL-3.0-only"
+  ],
+  "author": [
+    {
+      "name": "OXID eSales AG",
+      "email": "info@oxid-esales.com",
+      "homepage": "https://oxid-esales.com",
+      "role": "Developer"
+    },
+    {
+      "name": "O3-Shop",
+      "email": "info@o3-shop.com",
+      "homepage": "https://www.o3-shop.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OxidEsales\\DeveloperTools\\": "./src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "OxidEsales\\DeveloperTools\\Tests\\": "./tests"
+    }
+  },
+  "replace": {
+    "oxid-esales/developer-tools": "1.1.0"
+  }
+}
